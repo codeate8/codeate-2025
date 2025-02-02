@@ -77,7 +77,6 @@
     }
 }
 
-/* Hide cardRect1 and cardRect2 on screens smaller than 800px */
 @media (max-width: 800px) {
     .learn img[src*='cardRect1'], 
     .learn img[src*='cardRect2'] {
@@ -133,14 +132,14 @@
     }
 
     .left, .right {
-        display: flex; /* Enable flexbox */
-        flex-direction: column; /* Ensure content stays in a column */
+        display: flex;
+        flex-direction: column;
         padding: 10px;
     }
     .left{
-        display: flex; /* Enable flexbox */
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding-top: 10px;
     }
 
@@ -154,8 +153,8 @@
     }
 
     .right {
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
+        justify-content: center;
+        align-items: center;
         padding-top: 10px;
     }
 
@@ -191,7 +190,7 @@
     }
 
     .left h3 {
-        margin-top: 10px; /* Add spacing for better readability */
+        margin-top: 10px;
     }
     .paragraph-Div h2{
         font-size: 22px;
