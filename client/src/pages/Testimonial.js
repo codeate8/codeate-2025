@@ -172,32 +172,24 @@ function Testimonial() {
           </div>
         </div>
 
-        <div class="footer-bottom">
-          <p>© 2024 Codeate. All rights reserved</p>
-          <div class="social-icons">
-            <a
-              href="https://chat.whatsapp.com/CPx0PYzQBUHEPGwqOqOXSP"
-              target="_blank"
-            >
-              <img src={whatsappVector} alt="WhatsApp" />
-            </a>
-            <a
-              href="https://www.instagram.com/codeate.in?igsh=MXdseTJqYmJ0dnF1Ng=="
-              target="_blank"
-            >
-              <img src={instaVector} alt="Instagram" />
-            </a>
-            <a
-              href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A74886369&keywords=codeate&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=974f88ff-3e35-48f8-bca8-ad4a56cb7ab2&sid=5%3Am&spellCorrectionEnabled=true"
-              target="_blank"
-            >
-              <img src={linVector} alt="LinkedIn" />
-            </a>
-            <a href="https://discord.gg/nFqkCBGNtf" target="_blank">
-              <img src={discVector} alt="Discord" />
-            </a>
-          </div>
-        </div>
+        <div className="flex justify-between items-center px-5 py-2 bg-gray-900 text-gray-400">
+  <p className="text-xs font-light">© 2024 Codeate. All rights reserved</p>
+  <div className="flex space-x-5">
+    <a href="https://chat.whatsapp.com/CPx0PYzQBUHEPGwqOqOXSP" target="_blank">
+      <img src={whatsappVector} alt="WhatsApp" className="w-6 h-6" />
+    </a>
+    <a href="https://www.instagram.com/codeate.in?igsh=MXdseTJqYmJ0dnF1Ng==" target="_blank">
+      <img src={instaVector} alt="Instagram" className="w-6 h-6" />
+    </a>
+    <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A74886369&keywords=codeate&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=974f88ff-3e35-48f8-bca8-ad4a56cb7ab2&sid=5%3Am&spellCorrectionEnabled=true" target="_blank">
+      <img src={linVector} alt="LinkedIn" className="w-6 h-6" />
+    </a>
+    <a href="https://discord.gg/nFqkCBGNtf" target="_blank">
+      <img src={discVector} alt="Discord" className="w-6 h-6" />
+    </a>
+  </div>
+</div>
+
       </footer>
     </div>
   );

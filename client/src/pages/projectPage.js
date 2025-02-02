@@ -35,9 +35,10 @@ function ProjectPage() {
 
   return (
     <div><div className="project-page">
-    <h1 className="project-header">
-      <span className="highlight">Our</span> Flagship Projects
-    </h1> 
+    <h1 className="project-header text-[36px] font-bold">
+  <span className="highlight">Our</span> Flagship Projects
+</h1>
+
     <p>
       Real-World Innovation, Powered by Our Community
     </p>
