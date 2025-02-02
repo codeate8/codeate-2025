@@ -193,4 +193,8 @@
     .left h3 {
         margin-top: 10px; /* Add spacing for better readability */
     }
+    .paragraph-Div h2{
+        font-size: 22px;
+        font-weight: 700;
+    }
 }

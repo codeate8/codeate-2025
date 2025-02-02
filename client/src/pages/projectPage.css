@@ -148,7 +148,10 @@
     font-size: 30px;
   }
   .project-page p{
-    font-size: 1rem;
+    font-size: 0.7rem;
+  }
+  .project-page h1{
+font-size: 22px;
   }
 
 }
