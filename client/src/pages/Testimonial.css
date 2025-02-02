@@ -250,7 +250,7 @@
     }
 
     .upper-section-right {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 30px;
     }
 
