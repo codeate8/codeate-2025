@@ -12,10 +12,10 @@ code {
     monospace;
 } */
 
-
+/* 
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 body {
   margin: 0;

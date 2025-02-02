@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .testimonial{
     padding: 90px 90px 0 90px ;
 }

@@ -14,7 +14,7 @@ function Insights(){
 
         
          <div className="upperSection-head">
-                <h1>Who We Are?</h1>
+                <h1 className="text-[36px] font-bold">Who We Are?</h1>
                 <p>Revolutionizing AI-Powered Experiential Learning</p>
                 </div>
             <div className="upperSection">
