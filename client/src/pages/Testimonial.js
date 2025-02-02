@@ -1,8 +1,8 @@
 import React from "react";
 import "./Testimonial.css";
-import testi1 from "../assets/testi1.png";
-import testi2 from "../assets/testi2.png";
-import testi3 from "../assets/testi3.png";
+import karthik from "../assets/kartick.png";
+import vikas from "../assets/Vikas.png";
+import aman from "../assets/aman.png";
 import quote from "../assets/Quote.png";
 import whatsappVector from "../assets/whatsappVector.png";
 import instaVector from "../assets/instaVector.png";
@@ -17,24 +17,24 @@ import { AnimatedTestimonials } from "../ui/animated-testimonials";
 const testimonialsData = [
   {
     quote:
-      "Amazing experience with Codeate! The instructors are skilled and supportive, and the learning process is seamless. Highly recommend it to anyone passionate about growing their talents!",
-    name: "Christy Santonia",
-    designation: "Student",
-    src: testi1,
+      "Codeate has made my journey as a first time founder so easy. I could completely concentrate on business improvement with Codeate on my side as project handlers. They always had time for any discussion/clarification. So grateful to find them. I defenitely recommend.",
+    name: "Karthik Karamsetty",
+    designation: "FinoBird",
+    src: karthik,
   },
   {
     quote:
-      "Harmony Music Academy exceeded my expectations! Great instructors and a supportive environment. Highly recommend it!",
-    name: "Jessica R.",
+      "Hello everyone, I'm Vikas Rai. Recently I attended TezIndia Blockchain Bootcamp 1.0. The Bootcamp was amazing. I didn't have any previous knowledge about Web 3.0.",
+    name: "Vikas Rai",
     designation: "Student",
-    src: testi2,
+    src: vikas,
   },
   {
     quote:
-      "Joining Harmony Music Academy has been a wonderful experience! The instructors are incredibly talented and ensure every session is both engaging and educational. The supportive environment encouraged me to push my limits and grow as an artist. ",
-    name: "Mariyal T.",
-    designation: "Student",
-    src: testi3,
+      "I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad that we at upanyas decided to work with you.",
+    name: "Aman",
+    designation: "Team Upanyaas",
+    src: aman,
   },
 ];
 
