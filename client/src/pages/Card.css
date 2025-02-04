@@ -45,6 +45,17 @@
     font-size: 36px;
     color: #0E5AED;
 }
+.card-desc{
+text-align: center;
+justify-items: center;
+margin-bottom: 80px;
+}
+.card-desc p{
+    font-size: 1.5rem;
+    color: #6E727E;
+    font-weight: 400;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 1024px) {

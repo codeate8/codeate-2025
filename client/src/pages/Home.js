@@ -28,7 +28,7 @@ function Home() {
     return (
         <div className="Main-container">
             <div className="Home-s1">
-            <h1>Doing Projects made easy</h1>
+            <h1>Doing Projects Made Easy</h1>
             <img className="professional-image" src={prfsnl} alt="professional image" />
             {/* <div className="Home-s1-p1">
             {lines.map((line, index) => (

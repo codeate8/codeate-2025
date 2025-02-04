@@ -44,9 +44,9 @@ function Testimonial() {
       <div className="testimonial">
         <div className="upper-section">
           <div className="upper-section-left">
-            <h2>
+            <h2 className="upper-section-left-head text-[36px] font-bold"><span className="highlight">
               Number
-              <br />
+              <br /></span>
               That Tell Our Story
             </h2>
             <p>

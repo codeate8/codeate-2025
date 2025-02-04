@@ -1,6 +1,6 @@
-.insightSection{
+/* .insightSection{
     margin-top: 10vh;
-}
+} */
 .upperSection{
     margin-bottom: 14vh;
 }
@@ -17,7 +17,7 @@
     justify-content: center; 
     text-align: center; 
     gap: 20px; 
-    padding-top: 50px;
+    /* padding-top: 50px; */
     padding-bottom: 40px;
 }
 
@@ -47,6 +47,8 @@ color: #0E5AED;
   
 .about-us-content p, .vision-content p, .mission-content p{
     padding: 20px;
+    color: #3E4353;
+    font-size: 16px;
 }
 
 .about-us-content h2, .vision-content h2, .mission-content h2 {
@@ -54,8 +56,9 @@ color: #0E5AED;
     font-weight: 700;
     font-size: 2.25rem;
 }
+
 .vision-content h2, .mission-content h2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .vision-content, .mission-content{
@@ -228,6 +231,7 @@ color: #0E5AED;
     color: white; 
   }
 
+
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .upperSection {
@@ -360,9 +364,13 @@ color: #0E5AED;
     }
     .left-section h3{
         font-size: 5px;
+        font-weight: 900;
     }
     .left-section p{
         font-size: 5px;
+    }
+    .left-section-head3{
+        font-weight: 900;
     }
     .right-section p{
         border: 1px solid white; 

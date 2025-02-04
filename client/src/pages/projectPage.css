@@ -1,7 +1,7 @@
 .project-page {
     text-align: center;
     padding: 20px;
-    margin-top: 22vh;
+    margin-top: 5vh;
   }
 
   .project-page p{
@@ -64,10 +64,10 @@
 
   .lowerSection-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 36px;
     color: #ffffff; 
     margin-bottom: 50px;
-    margin-top: 8vh;
+    margin-top: 2vh;
 
 }
   

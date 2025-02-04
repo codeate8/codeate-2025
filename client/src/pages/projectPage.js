@@ -34,7 +34,8 @@ function ProjectPage() {
   }; 
 
   return (
-    <div><div className="project-page">
+    <div>
+    <div className="project-page">
     <h1 className="project-header text-[36px] font-bold">
   <span className="highlight">Our</span> Flagship Projects
 </h1>
@@ -67,7 +68,7 @@ function ProjectPage() {
   </div>
    <div className="lowerSection">
               <img className="bg2Image" src={bg2} alt="background"/>
-    <h2 className="lowerSection-title">Why choose us</h2>
+    <h2 className="lowerSection-title text-[36px] font-bold"><span className="highlight text-[36px] font-bold">Why</span> Choose Us</h2>
     <div className="lowerSection-grid">
     <div className="lowerSection-item">
     <div className="lowerSection-content">

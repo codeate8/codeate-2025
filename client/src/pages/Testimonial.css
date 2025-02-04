@@ -14,15 +14,20 @@
    
 }
 .upper-section-left h2{
-    font-size:32px;
+    /* font-size:32px; */
     line-height: 38.4px;
     font-weight: 700;
     margin-bottom: 15px;
 }
+.upper-section-left-head{
+    font-size: 36px;
+}
 .upper-section-left p{
     font-weight: 400;
-    font-size: 14px;
     line-height: 16.8px;
+    font-size: 1.2rem;
+    line-height: 28.8px;
+    color: #6E727E;
 }
 .upper-section {
     display: flex;

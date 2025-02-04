@@ -36,7 +36,7 @@ function Insights(){
                 <div className="vision-content">
                 <div className="content-row">
                 <img src={inRect} alt="Rect"/>
-                <h2>AI-Enhanced Learning Journey</h2>
+                <h2 className="content-row-head text-[36px] font-bold">AI-Enhanced Learning Journey</h2>
                 </div>
                 <p>
                 At Codeate, we integrate AI-powered tools to create a tailored learning experience. Our platform personalizes your path, ensuring you receive the right resources, projects, and mentorship at every step of your journey. With AI, we make experiential learning more effective, intuitive, and aligned with industry demands.
@@ -63,7 +63,7 @@ function Insights(){
   <img className="card-image" src={card} alt="card" />
   <div className="content-inside">
     <div className="left-section">
-      <h3>Want to connect with us?</h3>
+      <h3 className="left-section-head3 text-[50px] font-bold">Want to connect with us?</h3>
       <p>Let's do this</p>
     </div>
     <div className="right-section">

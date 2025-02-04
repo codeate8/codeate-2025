@@ -9,6 +9,15 @@ import cardRect2 from "../assets/cardRectleft.png";
 function Card() {
     return(
         <div className='fullCard'>
+        <div className='card-desc'>
+        <h2 className='card-desc-header text-[36px] font-bold'><span className='highlight'>The </span>Codeate Experience
+</h2>
+<p>
+Learn, Build & Grow Together.
+
+</p>
+        </div>
+        
             <div className='learn'>
             <div>
                 <img className='to-dim' src={cardRect1} alt='card Rectangle'/>
