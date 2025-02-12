@@ -1,22 +1,34 @@
 import React from "react";
-import "./Insights.css";
+import "./About.css";
+import v1 from "../assets/amazonV.png";
+import v2 from "../assets/ciscoV.png";
+import v3 from "../assets/deloitteV.png";
+import v4 from "../assets/tcsV.png";
 import inRect from "../assets/inRect.png";
-import card from "../assets/GradientFill.svg";
-import Calendly from "../components/Calendly";
 
-function Insights() {
+function HomeAbout() {
   return (
-    <div className="insightSection">
-      <div className="insight-middle">
-        <div className="upperSection-head">
-          <h1 className="text-[36px] font-bold">Who We Are?</h1>
-          <p>Revolutionizing AI-Powered Experiential Learning</p>
+    <>
+      <div className="section">
+        <div className="textSection">
+          <p>
+            Learn from expert mentors with experience at top global companies.
+          </p>
         </div>
+
+        <div className="mentorComp">
+          <img className="one" src={v1} alt="Amazon " />
+          <img className="one" src={v2} alt="Cisco" />
+          <img className="one" src={v3} alt="Deloitte" />
+          <img className="one" src={v4} alt="Tsc" />
+        </div>
+      </div>
+      <section className="bg-white">
         <div className="upperSection">
           <div className="upperSection-s1">
             <div className="card">
               <div className="about-us-content">
-                <div className="w-full flex items-center gap-x-3">
+                <div className="content-row">
                   <img src={inRect} alt="Rect" />
                   <h2>About us</h2>
                 </div>
@@ -36,8 +48,8 @@ function Insights() {
           <div className="upperSection-s2">
             <div className="card">
               <div className="vision-content">
-                <div className="w-full flex items-center gap-x-3">
-                  <img src={inRect} alt="Rect"/>
+                <div className="content-row">
+                  <img src={inRect} alt="Rect" />
                   <h2 className="content-row-head text-[36px] font-bold">
                     AI-Enhanced Learning Journey
                   </h2>
@@ -54,7 +66,7 @@ function Insights() {
             </div>
             <div className="card">
               <div className="mission-content">
-                <div className="w-full flex items-center gap-x-3">
+                <div className="content-row">
                   <img src={inRect} alt="Rect" />
                   <h2>Industry-Ready Projects and Collaboration</h2>
                 </div>
@@ -69,13 +81,9 @@ function Insights() {
             </div>
           </div>
         </div>
-      </div>
-      {/* calendly */}
-      <Calendly 
-        cardImage={card} 
-        calendlyLink="https://calendly.com/contact-codeate/30min" />
-    </div>
+      </section>
+    </>
   );
 }
 
-export default Insights;
+export default HomeAbout;
