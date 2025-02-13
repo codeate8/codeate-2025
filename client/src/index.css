@@ -9,18 +9,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; /* Prevents scrollbars from appearing */
 }
 
-/* Hide scrollbar but keep scrolling */
-.scrollbar-hidden::-webkit-scrollbar {
-  display: none;
+/* Enable scrolling inside the body but keep scrollbars hidden */
+html, body {
+  height: 100%;
+  overflow: auto; /* Allows scrolling */
 }
 
-.scrollbar-hidden {
-  -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
-  scrollbar-width: none;  /* Hide scrollbar for Firefox */
+/* Hide scrollbar while keeping scrolling functional */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 }
 
+/* Apply no-scrollbar globally */
+html, body {
+  @apply no-scrollbar;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

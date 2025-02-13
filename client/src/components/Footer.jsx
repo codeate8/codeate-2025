@@ -4,6 +4,7 @@ import instaVector from "../assets/instaVector.png";
 import linVector from "../assets/linVector.png";
 import discVector from "../assets/discVector.png";
 import codeateLogo from "../assets/codeateLogo2.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -28,26 +29,26 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-lg text-white mb-2">Solutions</h4>
             <ul className="space-y-1">
-              <li><a href="/Upcoming" className="hover:text-blue-400">Build</a></li>
-              <li><a href="/Upcoming" className="hover:text-blue-400">Learn</a></li>
-              <li><a href="/Upcoming" className="hover:text-blue-400">Community</a></li>
+              <li><Link to="/Upcoming" className="hover:text-blue-400">Build</Link></li>
+              <li><Link to="/Upcoming" className="hover:text-blue-400">Learn</Link></li>
+              <li><Link to="/Upcoming" className="hover:text-blue-400">Community</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-lg text-white mb-2">Services</h4>
             <ul className="space-y-1">
-              <li><a href="/Upcoming" className="hover:text-blue-400">Consultancy</a></li>
-              <li><a href="/Upcoming" className="hover:text-blue-400">College Connects</a></li>
-              <li><a href="/Upcoming" className="hover:text-blue-400">Upskilling</a></li>
+              <li><Link to="/Upcoming" className="hover:text-blue-400">Consultancy</Link></li>
+              <li><Link to="/Upcoming" className="hover:text-blue-400">College Connects</Link></li>
+              <li><Link to="/Upcoming" className="hover:text-blue-400">Upskilling</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-lg text-white mb-2">Helpful Links</h4>
             <ul className="space-y-1">
-              <li><a href="/Upcoming" className="hover:text-blue-400">About Us</a></li>
-              <li><a href="/Upcoming" className="hover:text-blue-400">Privacy Policy</a></li>
-              <li><a href="/Upcoming" className="hover:text-blue-400">Terms & Conditions</a></li>
-              <li><a href="/Upcoming" className="hover:text-blue-400">FAQ</a></li>
+              <li><Link to="/about" className="hover:text-blue-400">About Us</Link></li>
+              <li><Link to="/upcoming" className="hover:text-blue-400">Privacy Policy</Link></li>
+              <li><Link to="/upcoming" className="hover:text-blue-400">Terms & Conditions</Link></li>
+              <li><Link to="/upcoming" className="hover:text-blue-400">FAQ</Link></li>
             </ul>
           </div>
         </div>
