@@ -81,7 +81,7 @@ after:ease-in-out hover:after:scale-x-100
             </li>
             <li>
               <Link
-                to="/upcoming"
+                to="/community"
                 className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 
 after:bg-blue-500 after:transform after:scale-x-0 after:transition-transform after:duration-300 
 after:ease-in-out hover:after:scale-x-100

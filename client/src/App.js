@@ -10,6 +10,7 @@ import Upcoming from "./pages/Upcoming";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Careers from "./pages/Careers";
+import Community from "./pages/Community";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/insights" element={<Insights />} />
           <Route path="/testimonial" element={<Testimonial />} />
           <Route path='/careers' element={<Careers/>}/>
+          <Route path="/community" element={<Community/>}/>
           <Route path='/upcoming' element={<Upcoming/>}/>
         </Routes>
         <Footer/>
