@@ -1,5 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Outline animation moving along the border */
+@keyframes outline-spin {
+  0% {
+    border-image-source: linear-gradient(0deg, #f7f6f6, #f6e5d8, #38599a, #09155a);
+  }
+  25% {
+    border-image-source: linear-gradient(90deg, #f7f6f6, #f6e5d8, #38599a, #09155a);
+  }
+  50% {
+    border-image-source: linear-gradient(180deg, #f7f6f6, #f6e5d8, #38599a, #09155a);
+  }
+  75% {
+    border-image-source: linear-gradient(270deg, #f7f6f6, #f6e5d8, #38599a, #09155a);
+  }
+  100% {
+    border-image-source: linear-gradient(360deg, #f7f6f6, #f6e5d8, #38599a, #09155a);
+  }
+}
+
+/* Custom Tailwind Utility Class */
+@layer utilities {
+  .animate-outline-spin {
+    border-width: 2px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(0deg, #ff0000, #ff7300, #ffd700, #ff0000);
+    animation: outline-spin 4s linear infinite;
+  }
+}
+
+
 .project-page {
-    text-align: center;
     padding: 20px;
     margin-top: 5vh;
   }
@@ -13,12 +46,7 @@
     line-height: 1.6; 
     font-weight: 200;
   }
-  
-  .project-header {
-    font-size: 2.25rem;
-    margin-bottom: 3px;
-    color: #333;    
-  }
+
   .highlight {
     color: #0E5AED;
   }
@@ -58,18 +86,26 @@
     padding: 10px;
   }
   
+.slick-arrow{
+  display: none;
+}
+
+.slick-dots{
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
   .slick-dots li button:before {
     color: #007bff;
   }
 
-  .lowerSection-title {
+  /* .lowerSection-title {
     text-align: center;
     font-size: 36px;
     color: #ffffff; 
     margin-bottom: 50px;
     margin-top: 2vh;
 
-}
+} */
   
 .lowerSection-content img {
     width: 24px; 
@@ -144,9 +180,6 @@
   .lowerSection-content p {
       font-size: 12px;
   }
-  .project-header{
-    font-size: 30px;
-  }
   .project-page p{
     font-size: 0.7rem;
   }
@@ -154,4 +187,39 @@
 font-size: 22px;
   }
 
+}
+
+.box {
+  --border-angle: 0deg;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 25%);
+  animation: border-angle-rotate 2s infinite linear;
+  border: 0.5rem solid transparent;
+  position: relative;
+  
+}
+
+/* Smooth animated border for box.b */
+.box.b {
+  background-color: transparent;
+  background: linear-gradient(transparent) padding-box,
+    conic-gradient(
+        from var(--border-angle),
+        #ff5733 50%,
+        white
+      )
+      border-box;
+}
+
+/* Rotating border keyframes */
+@keyframes border-angle-rotate {
+  from {
+    --border-angle: 0deg;
+  }
+  to {
+    --border-angle: 360deg;
+  }
 }

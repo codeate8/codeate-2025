@@ -35,9 +35,9 @@ function Testimonial() {
   return (
     <div className="mContainer">
       <div className="testimonial">
-        <div className="upper-section">
-          <div className="upper-section-left">
-            <h2 className="upper-section-left-head text-[36px] font-bold"><span className="highlight">
+        <div className="flex flex-col lg:flex-row md:flex-row justify-between">
+          <div className="lg:w-1/2">
+            <h2 className="text-[36px] font-bold text-gray-800 text-center lg:text-left md:text-left"><span className="highlight">
               Number
               <br /></span>
               That Tell Our Story
@@ -72,11 +72,11 @@ function Testimonial() {
           </div>
         </div>
         <div className="middle-section">
-          <div className="middle-section-p1">
-            <h3 className="project-header">
+          <div className="flex flex-col justify-center items-center">
+            <h3 className="text-[36px] font-bold text-gray-800">
               <span className="highlight">Our </span>Testimonials
             </h3>
-            <p>About our success stories.</p>
+            <p className="text-xl">About our success stories.</p>
           </div>
           <AnimatedTestimonials
             testimonials={testimonialsData}

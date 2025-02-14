@@ -8,10 +8,14 @@ import inRect from "../assets/inRect.png";
 import TabsComponent from "../components/Tabs";
 import Calendly from "../components/Calendly";
 import card from "../assets/GradientFill.svg";
+import Banner from "../components/Banner";
 
 function About() {
   return (
     <>
+      <div>
+        <Banner linkName="About" message="Know More About Us"/>
+      </div>
       <div className="section">
         <div className="textSection">
           <p>
@@ -88,7 +92,7 @@ function About() {
       <section className="w-full flex px-6 mb-20">
         <div className="upper-section">
           <div className="upper-section-left">
-            <h2 className="upper-section-left-head text-[36px] font-bold">
+            <h2 className="text-gray-800 text-[36px] font-bold">
               <span className="highlight">
                 Number
                 <br />
@@ -126,9 +130,9 @@ function About() {
         </div>
       </section>
       <section className="w-full flex flex-col justify-center gap-y-10 mb-10">
-        <div className="w-full flex flex-col justify-center items-center gap-y-3">
+        <div className="w-full flex flex-col justify-center items-center gap-y-3 px-2">
             <h2 className="text-gray-900 font-bold text-4xl"><span className="text-blue-600">Main</span> Heading</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi impedit</p>
+            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi impedit</p>
         </div>
         <div>
             <TabsComponent/>

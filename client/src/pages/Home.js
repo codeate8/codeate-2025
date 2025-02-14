@@ -22,7 +22,7 @@ function Home() {
     <div className="Main-container">
       <div className="Home-s1">
         <div className="w-full flex flex-col justify-center items-center gap-y-3">
-          <h1 className="text-4xl lg:text-6xl text-center font-extrabold">Doing Projects Made Easy</h1>
+          <h1 className="text-4xl lg:text-6xl text-center font-extrabold text-gray-800">Doing Projects Made Easy</h1>
           <p className="text-4xl lg:text-6xl font-extrabold bg-gradient-to-r from-blue-600 via-indigo-500 to-indigo-400 bg-clip-text text-transparent">Professionally</p>
         </div>
         

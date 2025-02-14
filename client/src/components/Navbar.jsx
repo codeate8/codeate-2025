@@ -31,7 +31,7 @@ const Navbar = () => {
         >
           {/* Added bg-white to ensure the background is white when menuOpen is true */}
           <ul className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 text-gray-700 text-lg">
-            <li>
+            {/* <li>
               <Link
                 to="/upcoming"
                 className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 
@@ -42,8 +42,8 @@ after:ease-in-out hover:after:scale-x-100
               >
                 Build
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link
                 to="/upcoming"
                 className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 
@@ -53,6 +53,30 @@ after:ease-in-out hover:after:scale-x-100
                 onClick={() => setMenuOpen(false)}
               >
                 Learn
+              </Link>
+            </li> */}
+            <li>
+              <Link
+                to="/about"
+                className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 
+after:bg-blue-500 after:transform after:scale-x-0 after:transition-transform after:duration-300 
+after:ease-in-out hover:after:scale-x-100
+"
+                onClick={() => setMenuOpen(false)}
+              >
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/careers"
+                className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 
+after:bg-blue-500 after:transform after:scale-x-0 after:transition-transform after:duration-300 
+after:ease-in-out hover:after:scale-x-100
+"
+                onClick={() => setMenuOpen(false)}
+              >
+                Job Board
               </Link>
             </li>
             <li>
@@ -67,26 +91,15 @@ after:ease-in-out hover:after:scale-x-100
                 Community
               </Link>
             </li>
-            <li>
-              <Link
-                to="/careers"
-                className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 
-after:bg-blue-500 after:transform after:scale-x-0 after:transition-transform after:duration-300 
-after:ease-in-out hover:after:scale-x-100
-"
-                onClick={() => setMenuOpen(false)}
-              >
-                Careers
-              </Link>
-            </li>
-            <li>
+            
+            {/* <li>
               <Link
                 to="/upcoming"
                 className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition"
               >
                 Get Started
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

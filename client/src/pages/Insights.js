@@ -8,8 +8,8 @@ function Insights() {
   return (
     <div className="insightSection">
       <div className="insight-middle">
-        <div className="upperSection-head">
-          <h1 className="text-[36px] font-bold">Who We Are?</h1>
+        <div className="flex flex-col justify-center items-center">
+          <h1 className="text-[36px] font-bold text-gray-800"><span className="text-blue-600">Who</span> We Are?</h1>
           <p>Revolutionizing AI-Powered Experiential Learning</p>
         </div>
         <div className="upperSection">
@@ -18,7 +18,7 @@ function Insights() {
               <div className="about-us-content">
                 <div className="w-full flex items-center gap-x-3">
                   <img src={inRect} alt="Rect" />
-                  <h2>About us</h2>
+                  <h2 className="2xl">About us</h2>
                 </div>
                 <p>
                   At Codeate, we leverage AI-driven experiential learning to

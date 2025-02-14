@@ -4,7 +4,6 @@ import v1 from "../assets/amazonV.png";
 import v2 from "../assets/ciscoV.png";
 import v3 from "../assets/deloitteV.png";
 import v4 from "../assets/tcsV.png";
-import inRect from "../assets/inRect.png";
 
 function HomeAbout() {
   return (
@@ -23,65 +22,6 @@ function HomeAbout() {
           <img className="one" src={v4} alt="Tsc" />
         </div>
       </div>
-      <section className="bg-white">
-        <div className="upperSection">
-          <div className="upperSection-s1">
-            <div className="card">
-              <div className="about-us-content">
-                <div className="content-row">
-                  <img src={inRect} alt="Rect" />
-                  <h2>About us</h2>
-                </div>
-                <p>
-                  At Codeate, we leverage AI-driven experiential learning to
-                  provide personalized, hands-on opportunities for skill
-                  development. Our platform intelligently adapts to your
-                  learning pace, guiding you through real-world projects and
-                  connecting you with industry professionals. Get ready to gain
-                  the practical expertise and insights needed to thrive in
-                  today’s fast-evolving tech landscape.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="upperSection-s2">
-            <div className="card">
-              <div className="vision-content">
-                <div className="content-row">
-                  <img src={inRect} alt="Rect" />
-                  <h2 className="content-row-head text-[36px] font-bold">
-                    AI-Enhanced Learning Journey
-                  </h2>
-                </div>
-                <p>
-                  At Codeate, we integrate AI-powered tools to create a tailored
-                  learning experience. Our platform personalizes your path,
-                  ensuring you receive the right resources, projects, and
-                  mentorship at every step of your journey. With AI, we make
-                  experiential learning more effective, intuitive, and aligned
-                  with industry demands.
-                </p>
-              </div>
-            </div>
-            <div className="card">
-              <div className="mission-content">
-                <div className="content-row">
-                  <img src={inRect} alt="Rect" />
-                  <h2>Industry-Ready Projects and Collaboration</h2>
-                </div>
-                <p>
-                  Our platform connects you with real-world projects across
-                  various tech domains, developed by peers and guided by
-                  industry professionals. Through hands-on, collaborative work,
-                  you'll hone your skills, gain valuable exposure, and build a
-                  portfolio that sets you apart in the job market.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

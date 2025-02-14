@@ -18,7 +18,7 @@ const Footer = () => {
           <a
             href="https://chat.whatsapp.com/CPx0PYzQBUHEPGwqOqOXSP"
             target="_blank"
-            className="mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg"
+            className="mt-2 px-4 py-2 bg-transparent border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white rounded-lg"
             rel="noreferrer"
           >
             Join Community
@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
       
       {/* Second Section */}
-      <div className="mt-6 border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center text-xs px-8">
+      <div className="mt-6 border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center text-xs px-12">
         <p>© 2024 Codeate. All rights reserved</p>
         <div className="flex space-x-4 mt-2 md:mt-0">
           <a href="https://chat.whatsapp.com/CPx0PYzQBUHEPGwqOqOXSP" target="_blank" rel="noreferrer">
