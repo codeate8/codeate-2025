@@ -241,8 +241,8 @@ color: #0E5AED;
 
     .about-us-content, .vision-content, .mission-content {
         max-width: 90%;
-        height: auto;
-        margin: 0 auto;
+        /* height: auto; */
+        /* margin: 0 auto; */
     }
     .upperSection-head p{
         font-size: 20px;
@@ -319,8 +319,8 @@ color: #0E5AED;
 
     .about-us-content, .vision-content, .mission-content {
         max-width: 90%;
-        height: auto;
-        margin: 0 auto;
+        /* height: auto;
+        margin: 0 auto; */
     }
     .upperSection-head h1{
         font-size: 25px;

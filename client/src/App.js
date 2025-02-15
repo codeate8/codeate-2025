@@ -1,44 +1,22 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import './App.css';
-import Home from './pages/Home';
-import Card from './pages/Card';
-import About from './pages/About';
-import ProjectPage from './pages/projectPage';
-import Insights from './pages/Insights';
-import Testimonial from './pages/Testimonial';
-import Upcoming from './pages/Upcoming';
-import logo from './assets/codeateLogo.png';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Home from "./pages/Home";
+import Card from "./components/card/Card";
+import About from "./pages/About";
+import ProjectPage from "./pages/projectPage";
+import Insights from "./pages/Insights";
+import Testimonial from "./pages/Testimonial";
+import Upcoming from "./pages/Upcoming";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Careers from "./pages/Careers";
+import Community from "./pages/Community";
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <Router>
       <div className="all">
-        <div className="nav-bar">
-          <div className="nav-left">
-          <Link to='/'><img src={logo} alt="logo" className="logo" /></Link>
-            
-            <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-              ☰
-            </div>
-          </div>
-
-          <nav>
-            <ul className={`nav-address ${menuOpen ? "open" : ""}`}>
-              <li><Link to="/upcoming"><p>Build</p></Link></li>
-              <li><Link to="/upcoming"><p>Learn</p></Link></li>
-              <li><Link to="/upcoming"><p>Community</p></Link></li>
-              <li className="getStarted">
-                <Link to="/upcoming">
-                  <p>Get Started</p>
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -46,9 +24,11 @@ function App() {
           <Route path="/projectPage" element={<ProjectPage />} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/testimonial" element={<Testimonial />} />
-          <Route path="/upcoming" element={<Upcoming />} />
-
+          <Route path='/careers' element={<Careers/>}/>
+          <Route path="/community" element={<Community/>}/>
+          <Route path='/upcoming' element={<Upcoming/>}/>
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
