@@ -8,12 +8,11 @@ const Careers = () => {
   return (
     <>
       <div>
-        <Banner linkName={"Jobs"} message={"Explore your career with us"}/>
+        <Banner linkName={"Jobs"} message={"Explore Your Career With Us"}/>
       </div>
       <div className="w-full flex flex-col justify-center items-center gap-y-3 px-2 py-4">
-          <h2 className="text-gray-900 font-bold text-4xl">
-            <span className="text-blue-600">Land </span>
-             your dream Job
+          <h2 className="text-gray-900 font-bold text-2xl">
+            Land Your Dream Job
           </h2>
           <p className="text-center">
           With our tech enabled hiring solution we make it easy to find and land your dream Job
