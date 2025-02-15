@@ -6,7 +6,6 @@ import aman from "../assets/aman.png";
 import Insights from "./Insights";
 import { AnimatedTestimonials } from "../ui/animated-testimonials";
 
-
 const testimonialsData = [
   {
     quote:
@@ -34,9 +33,9 @@ const testimonialsData = [
 function Testimonial() {
   return (
     <div className="mContainer">
-      <div className="testimonial">
-        <div className="flex flex-col lg:flex-row md:flex-row justify-between">
-        <div className="lg:w-1/2">
+      <div className="">
+        <div className="flex flex-col lg:flex-row md:flex-row justify-between px-12">
+          <div className="lg:w-1/2">
             <h2 className="text-gray-800 text-[36px] font-bold text-center lg:text-left md:text-left">
               <span className="highlight">
                 Numbers <br className="hidden lg:block" />

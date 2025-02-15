@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./projectPage.css";
 import P1 from "../assets/p1.png";
-import P2 from "../assets/p2.png";
+import P2 from "../assets/p8.png";
 import P3 from "../assets/p3.png";
-import P4 from "../assets/tezos.png";
+import P4 from "../assets/p9.png";
 import P5 from "../assets/p5.png";
 import editLogo from "../assets/editLogo.png";
 import bg2 from "../assets/bgimg.png";
@@ -47,7 +47,7 @@ function ProjectPage() {
         <div className="project-gallery">
           <Slider {...settings}>
             <div className="slider-item">
-              <img src={P1} alt="Project 1" />
+              <img src={P1} alt="Project 1" className="h-1/3" />
             </div>
             <div className="slider-item">
               <img src={P2} alt="Project 2" />
@@ -65,7 +65,7 @@ function ProjectPage() {
         </div>
       </div>
       <div
-        className="bg-[#000c24] relative bg-cover bg-center bg-no-repeat py-12"
+        className="bg-[#000c24] relative bg-cover bg-center bg-no-repeat py-1 mt-10"
         style={{
           backgroundImage: `url(${bg2})`,
           backgroundSize: "cover",

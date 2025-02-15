@@ -9,7 +9,7 @@ const Banner = ({ linkName, message }) => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Overlay for better readability */}
-      <div className="absolute inset-0 bg-white/80"></div>
+      <div className="absolute inset-0 bg-white/90"></div>
 
       {/* Centered Content */}
       <div className="relative z-10 text-center">

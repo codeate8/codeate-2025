@@ -158,11 +158,11 @@ function About() {
       <section className="w-full flex flex-col justify-center gap-y-10 mb-10">
         <div className="w-full flex flex-col justify-center items-center gap-y-3 px-2">
           <h2 className="text-gray-900 font-bold text-4xl">
-            <span className="text-blue-600">Main</span> Heading
+            <span className="text-blue-600">Gallery: </span>
+            Happenings at Codeate 
           </h2>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            impedit
+            Our Journey, Team and Activities in a nutshell 
           </p>
         </div>
         <div>
