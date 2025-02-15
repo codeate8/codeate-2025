@@ -31,7 +31,7 @@ const Navbar = () => {
             className="ml-auto text-2xl md:hidden focus:outline-none"
             onClick={() => setMenuOpen(!menuOpen)}
           >
-            ☰
+            {menuOpen ? "✖" : "☰"}
           </button>
         </div>
 
