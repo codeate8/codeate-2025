@@ -3,9 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.testimonial{
+/* .testimonial{
     padding: 90px 90px 0 90px ;
-}
+} */
 .upper-section-left{
     max-width: 670px; 
     height: auto;
@@ -67,7 +67,7 @@
 
 
 .middle-section{
-    margin-top: 15vh;
+    margin-top: 5vh;
     padding: 40px;
 }
 .middle-section-p1{

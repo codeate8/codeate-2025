@@ -37,8 +37,9 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-lg text-white mb-2">Services</h4>
             <ul className="space-y-1">
-              <li><Link to="https://altstart.in/" className="hover:text-blue-400">Consultancy & Upskilling</Link></li>
+              <li><Link to="https://altstart.in/" className="hover:text-blue-400">Consultancy</Link></li>
               <li><Link to="/Upcoming" className="hover:text-blue-400">College Connects</Link></li>
+              <li><Link to="https://altstart.in/" className="hover:text-blue-400">Upskilling</Link></li>
             </ul>
           </div>
           <div>
