@@ -157,7 +157,7 @@ function About() {
       </section>
       <section className="w-full flex flex-col justify-center gap-y-10 mb-10">
         <div className="w-full flex flex-col justify-center items-center gap-y-3 px-2">
-          <h2 className="text-gray-900 font-bold text-4xl">
+          <h2 className="text-gray-900 font-bold text-4xl text-center">
             <span className="text-blue-600">Gallery: </span>
             Happenings at Codeate 
           </h2>
