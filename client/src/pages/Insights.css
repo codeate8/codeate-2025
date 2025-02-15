@@ -317,11 +317,6 @@ color: #0E5AED;
         padding: 0 10px;
     }
 
-    .about-us-content, .vision-content, .mission-content {
-        max-width: 90%;
-        /* height: auto;
-        margin: 0 auto; */
-    }
     .upperSection-head h1{
         font-size: 25px;
         padding-bottom: 0px;

@@ -19,7 +19,10 @@ const Banner = ({ linkName, message }) => {
           </Link>
           /<span className="bg-blue-200 px-2 rounded-md text-blue-600">{linkName}</span>
         </p>
-        <p className="text-4xl font-bold">{message}</p>
+        <p className="text-4xl font-bold">
+          <span className="text-blue-600">{message.split(" ")[0]}</span>{" "}
+          <span className="text-black">{message.split(" ").slice(1).join(" ")}</span>
+        </p>
       </div>
     </div>
   );

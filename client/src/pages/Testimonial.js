@@ -36,13 +36,14 @@ function Testimonial() {
     <div className="mContainer">
       <div className="testimonial">
         <div className="flex flex-col lg:flex-row md:flex-row justify-between">
-          <div className="lg:w-1/2">
-            <h2 className="text-[36px] font-bold text-gray-800 text-center lg:text-left md:text-left"><span className="highlight">
-              Number
-              <br /></span>
-              That Tell Our Story
+        <div className="lg:w-1/2">
+            <h2 className="text-gray-800 text-[36px] font-bold text-center lg:text-left md:text-left">
+              <span className="highlight">
+                Numbers <br className="hidden lg:block" />
+              </span>
+              that Tell Our Story
             </h2>
-            <p>
+            <p className="text-justify py-2">
               At Codeate, our numbers reflect the tangible impact we're making.
               From groundbreaking projects to a thriving community of learners
               and professionals, every stat tells the story of our success.
@@ -63,7 +64,7 @@ function Testimonial() {
             </div>
             <div className="upper-section-right-elems">
               <h3>3000+</h3>
-              <p>Community Members</p>
+              <p className="text-center">Community Members</p>
             </div>
             <div className="upper-section-right-elems last-element">
               <h3>1000+</h3>

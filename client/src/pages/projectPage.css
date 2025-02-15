@@ -27,7 +27,7 @@
     border-width: 2px;
     border-image-slice: 1;
     border-image-source: linear-gradient(0deg, #ff0000, #ff7300, #ffd700, #ff0000);
-    animation: outline-spin 4s linear infinite;
+    animation: outline-spin 8s linear infinite;
   }
 }
 
