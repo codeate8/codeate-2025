@@ -3,6 +3,13 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import React from "react";
+import t1 from "../assets/t1.png"
+import t2 from "../assets/t2.png"
+import t3 from "../assets/t3.png"
+import t4 from "../assets/t4.png"
+import t5 from "../assets/t5.png"
+import t6 from "../assets/t6.png"
+import t7 from "../assets/t7.png"
 
 const tabs = [
   {
@@ -10,13 +17,7 @@ const tabs = [
     label: "Meetup",
     content: {
       images: [
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
+        t1,t2,t3,t4,t5,t6,t7
       ],
       text: "This is a meetup event where developers gather to share knowledge.",
     },
@@ -26,13 +27,7 @@ const tabs = [
     label: "Events",
     content: {
       images: [
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
+        t1,t2,t3,t4,t5,t6,t7
       ],
       text: "These are some of the best events we have conducted so far.",
     },
@@ -42,13 +37,7 @@ const tabs = [
     label: "Team",
     content: {
       images: [
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
+        t1,t2,t3,t4,t5,t6,t7
       ],
       text: "Meet the Codeate Team behind the amazing projects.",
     },
@@ -58,13 +47,7 @@ const tabs = [
     label: "Developers",
     content: {
       images: [
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
-        "https://placehold.co/600x400",
+        t1,t2,t3,t4,t5,t6,t7
       ],
       text: "Our talented developers who contribute to open source and projects.",
     },
@@ -117,10 +100,10 @@ const TabsContent = ({ content }) => {
 
   return (
     <div className="w-full flex flex-col items-center">
-      <p className="mb-4 text-lg font-semibold text-blue-700">{content.text}</p>
-      <div className="grid grid-cols-3 gap-2 w-full">
+      <p className="mb-4 text-md font-semibold text-blue-700">{content.text}</p>
+      <div className="grid grid-cols-7 gap-2 w-full">
         {/* First Column */}
-        <div className="flex flex-col gap-2">
+        <div className="col-span-2 flex flex-col gap-2">
           <img
             src={content.images[0]}
             className="w-full h-[30%] object-cover rounded-md shadow-md"
@@ -132,7 +115,7 @@ const TabsContent = ({ content }) => {
         </div>
 
         {/* Middle Column */}
-        <div className="flex flex-col gap-2">
+        <div className="col-span-3 flex flex-col gap-2">
           <img
             src={content.images[2]}
             className="w-full h-full object-cover rounded-md shadow-md"
@@ -150,7 +133,7 @@ const TabsContent = ({ content }) => {
         </div>
 
         {/* Third Column */}
-        <div className="flex flex-col gap-2">
+        <div className="col-span-2 flex flex-col gap-2">
           <img
             src={content.images[5]}
             className="w-full h-[70%] object-cover rounded-md shadow-md"
