@@ -100,7 +100,7 @@ const TabsContent = ({ content }) => {
 
   return (
     <div className="w-full flex flex-col items-center">
-      <p className="mb-4 text-md font-semibold text-blue-700">{content.text}</p>
+      {/* <p className="mb-4 text-md font-semibold text-blue-700">{content.text}</p> */}
       <div className="grid grid-cols-7 gap-2 w-full">
         {/* First Column */}
         <div className="col-span-2 flex flex-col gap-2">
