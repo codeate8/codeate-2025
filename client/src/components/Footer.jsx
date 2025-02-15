@@ -37,9 +37,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-lg text-white mb-2">Services</h4>
             <ul className="space-y-1">
-              <li><Link to="/Upcoming" className="hover:text-blue-400">Consultancy</Link></li>
+              <li><Link to="https://altstart.in/" className="hover:text-blue-400">Consultancy & Upskilling</Link></li>
               <li><Link to="/Upcoming" className="hover:text-blue-400">College Connects</Link></li>
-              <li><Link to="/Upcoming" className="hover:text-blue-400">Upskilling</Link></li>
             </ul>
           </div>
           <div>
@@ -56,7 +55,7 @@ const Footer = () => {
       
       {/* Second Section */}
       <div className="mt-6 border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center text-xs px-12">
-        <p>© 2024 Codeate. All rights reserved</p>
+        <p>© 2025 Codeate. All rights reserved</p>
         <div className="flex space-x-4 mt-2 md:mt-0">
           <a href="https://chat.whatsapp.com/CPx0PYzQBUHEPGwqOqOXSP" target="_blank" rel="noreferrer">
             <img src={whatsappVector} alt="WhatsApp" className="w-6" />

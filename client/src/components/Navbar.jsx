@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
         {/* Left Section */}
         <div className="flex items-center w-full md:w-auto">
-          <Link to="/">
+          <Link to="/" onClick={()=>setMenuOpen(false)}>
             <img src={logo} alt="logo" className="h-10" />
           </Link>
           {/* Hamburger Menu for Mobile */}
@@ -60,7 +60,7 @@ after:ease-in-out hover:after:scale-x-100
                 to="/about"
                 className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 
 after:bg-blue-500 after:transform after:scale-x-0 after:transition-transform after:duration-300 
-after:ease-in-out hover:after:scale-x-100
+after:ease-in-out hover:after:scale-x-100 font-semibold
 "
                 onClick={() => setMenuOpen(false)}
               >
@@ -72,7 +72,7 @@ after:ease-in-out hover:after:scale-x-100
                 to="/careers"
                 className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 
 after:bg-blue-500 after:transform after:scale-x-0 after:transition-transform after:duration-300 
-after:ease-in-out hover:after:scale-x-100
+after:ease-in-out hover:after:scale-x-100 font-semibold
 "
                 onClick={() => setMenuOpen(false)}
               >
@@ -84,7 +84,7 @@ after:ease-in-out hover:after:scale-x-100
                 to="/community"
                 className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 
 after:bg-blue-500 after:transform after:scale-x-0 after:transition-transform after:duration-300 
-after:ease-in-out hover:after:scale-x-100
+after:ease-in-out hover:after:scale-x-100 font-semibold
 "
                 onClick={() => setMenuOpen(false)}
               >

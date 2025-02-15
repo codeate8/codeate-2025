@@ -5,6 +5,7 @@ import buildCard from "../../assets/buildRef.png";
 import comCard from "../../assets/communityRef.png";
 import cardRect1 from "../../assets/cardRect.png";
 import cardRect2 from "../../assets/cardRectleft.png";
+import { Link } from "react-router-dom";
 
 function Card() {
   return (
@@ -36,9 +37,9 @@ function Card() {
               competitive edge to excel in the tech world. Learn alongside a
               thriving community and turn knowledge into real-world expertise.
             </p>
-            <a href="#">
+            <Link to="/upcoming">
               <h3>Learn More</h3>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -57,9 +58,9 @@ function Card() {
               your expertise with impactful certifications, and elevate your
               career with the future of learning—powered by AI.
             </p>
-            <a href="#">
+            <Link to="/upcoming">
               <h3>Learn More</h3>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="right">
@@ -89,9 +90,9 @@ function Card() {
               insights and workshops. Build your network, sharpen your skills.
               And get ready for the career of tomorrow, today.
             </p>
-            <a href="#">
+            <Link to="/upcoming">
               <h3>Learn More</h3>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

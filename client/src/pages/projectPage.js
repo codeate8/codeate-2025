@@ -65,52 +65,56 @@ function ProjectPage() {
         </div>
       </div>
       <div
-        className="lowerSection relative bg-cover bg-center bg-no-repeat py-12"
-        style={{ backgroundImage: `url(${bg2})` }}
+        className="bg-[#000c24] relative bg-cover bg-center bg-no-repeat py-12"
+        style={{
+          backgroundImage: `url(${bg2})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
-        {/* <div className="absolute inset-0 bg-black/60"></div> */}
+        <div className="absolute inset-0 bg-white/5"></div>
         {/* <img className="bg2Image" src={bg2} alt="background" /> */}
-        <h2 className="mb-8 text-[36px] font-bold">
+        <h2 className="mb-8 text-[36px] font-bold text-center text-gray-100">
           <span className="highlight font-bold z-20">Why</span> Choose Us
         </h2>
-        <div className="lowerSection-grid">
+        <div className="lowerSection-grid px-4 text-gray-100">
           <div className="relative flex gap-x-8 rounded-md border-2 border-transparent bg-transparent p-3 overflow-hidden before:absolute before:inset-0 before:border-2 before:border-transparent before:rounded-lg before:animate-outline-spin">
-            <img src={editLogo} alt="edit logo" className="w-10 h-10" />
+            <img src={editLogo} alt="edit logo" className="w-8 aspect-square" />
             <p className="text-center text-sm font-semibold mt-2">
               Project Building Opportunities
             </p>
           </div>
 
           <div className="relative flex gap-x-8 rounded-md border-2 border-transparent bg-transparent p-3 overflow-hidden before:absolute before:inset-0 before:border-2 before:border-transparent before:rounded-lg before:animate-outline-spin">
-            <img src={editLogo} alt="edit logo" className="w-10 h-10" />
+            <img src={editLogo} alt="edit logo" className="w-8 aspect-square" />
             <p className="text-center text-sm font-semibold mt-2">
               Hands on Learning
             </p>
           </div>
 
           <div className="relative flex items-center gap-x-8 rounded-md border-2 border-transparent bg-transparent p-3 overflow-hidden before:absolute before:inset-0 before:border-2 before:border-transparent before:rounded-lg before:animate-outline-spin">
-            <img src={editLogo} alt="edit logo" className="w-10 h-10" />
+            <img src={editLogo} alt="edit logo" className="w-8 aspect-square" />
             <p className="text-center text-sm font-semibold mt-2">
               Direct Industry Connect
             </p>
           </div>
 
           <div className="relative flex items-center gap-x-8 rounded-md border-2 border-transparent bg-transparent p-3 overflow-hidden before:absolute before:inset-0 before:border-2 before:border-transparent before:rounded-lg before:animate-outline-spin">
-            <img src={editLogo} alt="edit logo" className="w-10 h-10" />
+            <img src={editLogo} alt="edit logo" className="w-8 aspect-square" />
             <p className="text-center text-sm font-semibold mt-2">
               Internships
             </p>
           </div>
 
           <div className="relative flex gap-x-8 rounded-md border-2 border-transparent bg-transparent p-3 overflow-hidden before:absolute before:inset-0 before:border-2 before:border-transparent before:rounded-lg before:animate-outline-spin">
-            <img src={editLogo} alt="edit logo" className="w-10 h-10" />
+            <img src={editLogo} alt="edit logo" className="w-8 aspect-square" />
             <p className="text-center text-sm font-semibold mt-2">
               Certification
             </p>
           </div>
 
           <div className="relative flex items-center gap-x-8 rounded-md border-2 border-transparent bg-transparent p-3 overflow-hidden before:absolute before:inset-0 before:border-2 before:border-transparent before:rounded-lg before:animate-outline-spin">
-            <img src={editLogo} alt="edit logo" className="w-10 h-10" />
+            <img src={editLogo} alt="edit logo" className="w-8 aspect-square" />
             <p className="text-center text-sm font-semibold mt-2">
               24x7 Community Support
             </p>
