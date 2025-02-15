@@ -63,7 +63,7 @@ function Testimonial() {
             </div>
             <div className="upper-section-right-elems">
               <h3>3000+</h3>
-              <p className="text-center">Community Members</p>
+              <p className="text-center">Members</p>
             </div>
             <div className="upper-section-right-elems last-element">
               <h3>1000+</h3>

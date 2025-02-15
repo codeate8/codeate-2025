@@ -84,7 +84,7 @@ export default function TabsComponent() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 20, scale: 0.95 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
-          className="w-[90%] max-w-6xl p-4 mt-4 bg-blue-100 rounded-lg mx-auto"
+          className="w-[90%] max-w-6xl p-4 mt-4 bg-white shadow-md rounded-lg mx-auto"
         >
           <TabsContent
             content={tabs.find((tab) => tab.id === activeTab)?.content}

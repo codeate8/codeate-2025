@@ -41,7 +41,7 @@ function About() {
         <div className="upperSection">
                   <div className="upperSection-s1 relative">
                     <div
-                      className="card relative bg-cover bg-center bg-no-repeat"
+                      className="card relative bg-center bg-repeat"
                       style={{ backgroundImage: `url(${img})` }}
                     >
                       <div className="absolute inset-0 bg-white/80"></div>
@@ -146,7 +146,7 @@ function About() {
             </div>
             <div className="upper-section-right-elems">
               <h3>3000+</h3>
-              <p className="text-center">Community Members</p>
+              <p className="text-center">Members</p>
             </div>
             <div className="upper-section-right-elems last-element">
               <h3>1000+</h3>
